@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		172E1457C0A629E879E11CD9E64E5574 /* Cheers-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7818E681E37011406E91C2107B6E456 /* Cheers-dummy.m */; };
-		372DE693B2CFCF8A89B005590434979A /* ImageGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A14644FE21CCD480F5786AB0C3D455E /* ImageGenerator.swift */; };
-		3E5206FD1B04CE52AD9F7D7462937D3D /* Cheers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F96EE9FED6C1252BAD0C6FD62867F60 /* Cheers.swift */; };
-		42A09E94875F3030EB20AFB327A4BC1B /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = E381CCF0F416C095C1812FB4C4011A2B /* Config.swift */; };
-		8B06AFEECFC58AA709E91AD1AF8B735A /* Cheers-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28A3C24C3D5350B16ED63A25EA377282 /* Cheers-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		172E1457C0A629E879E11CD9E64E5574 /* Cheers-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F227932AA091974E27C943AC7B18B3A7 /* Cheers-dummy.m */; };
+		372DE693B2CFCF8A89B005590434979A /* ImageGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A79137E22B9F021125AC210C700481 /* ImageGenerator.swift */; };
+		3E5206FD1B04CE52AD9F7D7462937D3D /* Cheers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2E6AD009615886E6E2C2849EF2929A /* Cheers.swift */; };
+		42A09E94875F3030EB20AFB327A4BC1B /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A674397845DB57E0DD5FA71E688C4FC /* Config.swift */; };
+		8B06AFEECFC58AA709E91AD1AF8B735A /* Cheers-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CDA9670A410237573092033A990CBE5 /* Cheers-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9E8B857DA67F949A4606107A361AFA57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		B646ABD2FF18A59C6399BDE0BE226E96 /* Pods-Bullseye-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5098A5D8449B4136E940AB5EA6FF64E8 /* Pods-Bullseye-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C04DF298D5CF207A27F0BA3DBDBD4777 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		DCFE0CF7B7F7C806339EE3CE9462AB55 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E995B8C9DCB06270F971EEE19D19DB /* Extensions.swift */; };
+		DCFE0CF7B7F7C806339EE3CE9462AB55 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA63B353437AE57A938344B0CA0C82F /* Extensions.swift */; };
 		FA807DBF1620075E4827FAB405B8CA5D /* Pods-Bullseye-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10562BCA126BFE40386E466F813A448E /* Pods-Bullseye-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -30,29 +30,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09DB96444CF9CDE000235C636F4D6C28 /* Cheers.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cheers.xcconfig; sourceTree = "<group>"; };
 		0B9E8A37F17296466AD88ACA4EA7EF91 /* Pods-Bullseye.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Bullseye.modulemap"; sourceTree = "<group>"; };
 		10562BCA126BFE40386E466F813A448E /* Pods-Bullseye-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Bullseye-dummy.m"; sourceTree = "<group>"; };
-		1F96EE9FED6C1252BAD0C6FD62867F60 /* Cheers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cheers.swift; path = Sources/Cheers.swift; sourceTree = "<group>"; };
-		286C82813B72BC30BD9A8C8EFF7F39CD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		28A3C24C3D5350B16ED63A25EA377282 /* Cheers-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cheers-umbrella.h"; sourceTree = "<group>"; };
-		2A14644FE21CCD480F5786AB0C3D455E /* ImageGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageGenerator.swift; path = Sources/ImageGenerator.swift; sourceTree = "<group>"; };
+		16E52691057B860432A1E3852A50307A /* NewRelic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NewRelic.h; path = NewRelicAgent/NewRelicAgent.framework/Versions/A/Headers/NewRelic.h; sourceTree = "<group>"; };
+		2804F6DEFD9130995BE5A93081BCCF95 /* NewRelicAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NewRelicAgent.h; path = NewRelicAgent/NewRelicAgent.framework/Versions/A/Headers/NewRelicAgent.h; sourceTree = "<group>"; };
+		2A674397845DB57E0DD5FA71E688C4FC /* Config.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Config.swift; path = Sources/Config.swift; sourceTree = "<group>"; };
 		4385184BE9D1C39E2C44CE74139C033E /* Pods_Bullseye.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Bullseye.framework; path = "Pods-Bullseye.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		475F9A699E02963449468140875EF805 /* Pods-Bullseye-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Bullseye-frameworks.sh"; sourceTree = "<group>"; };
 		5098A5D8449B4136E940AB5EA6FF64E8 /* Pods-Bullseye-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Bullseye-umbrella.h"; sourceTree = "<group>"; };
 		570876394B0098916C33AE4E9B790CC9 /* Pods-Bullseye-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Bullseye-acknowledgements.plist"; sourceTree = "<group>"; };
+		59A79137E22B9F021125AC210C700481 /* ImageGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageGenerator.swift; path = Sources/ImageGenerator.swift; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		74E768371FA8BC38F10103CA8A574934 /* NRGCDOverride.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NRGCDOverride.h; path = NewRelicAgent/NewRelicAgent.framework/Versions/A/Headers/NRGCDOverride.h; sourceTree = "<group>"; };
 		7580DD2A107077414011CEC1C87F0C9F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A2E6AD009615886E6E2C2849EF2929A /* Cheers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cheers.swift; path = Sources/Cheers.swift; sourceTree = "<group>"; };
 		7C8E9303898FFAE2D22F4A26B2D78E81 /* Pods-Bullseye-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Bullseye-resources.sh"; sourceTree = "<group>"; };
+		7CDA9670A410237573092033A990CBE5 /* Cheers-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cheers-umbrella.h"; sourceTree = "<group>"; };
 		8B94D7D301FBB2F08BA252C379FE3E9D /* Cheers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Cheers.framework; path = Cheers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EA63B353437AE57A938344B0CA0C82F /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Sources/Extensions.swift; sourceTree = "<group>"; };
+		8F785C83271377180787B93A8DEBC501 /* NRURLSessionTaskDelegateBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NRURLSessionTaskDelegateBase.h; path = NewRelicAgent/NewRelicAgent.framework/Versions/A/Headers/NRURLSessionTaskDelegateBase.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95B44F435DE1F11D94F08652840E0460 /* Pods-Bullseye.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bullseye.debug.xcconfig"; sourceTree = "<group>"; };
-		9DB9C8B8337B7B57B8D6812698FCC73A /* Cheers.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Cheers.modulemap; sourceTree = "<group>"; };
-		A7818E681E37011406E91C2107B6E456 /* Cheers-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cheers-dummy.m"; sourceTree = "<group>"; };
-		A7E995B8C9DCB06270F971EEE19D19DB /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Sources/Extensions.swift; sourceTree = "<group>"; };
+		9661708623E7D38E3CD008B6F9D6EEBA /* NRTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NRTimer.h; path = NewRelicAgent/NewRelicAgent.framework/Versions/A/Headers/NRTimer.h; sourceTree = "<group>"; };
+		9D6D5179F1D889BB664467A56DF44160 /* NewRelicCustomInteractionInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NewRelicCustomInteractionInterface.h; path = NewRelicAgent/NewRelicAgent.framework/Versions/A/Headers/NewRelicCustomInteractionInterface.h; sourceTree = "<group>"; };
+		B1951629C5EC4B7ECC9A90B301F488E5 /* NRConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NRConstants.h; path = NewRelicAgent/NewRelicAgent.framework/Versions/A/Headers/NRConstants.h; sourceTree = "<group>"; };
+		C00540FE150F270AF2FD1D55EC5B7886 /* Cheers.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Cheers.modulemap; sourceTree = "<group>"; };
+		C865C666846530BE3CE1F896900E0E04 /* Cheers.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cheers.xcconfig; sourceTree = "<group>"; };
+		CC4DC2AC2CDF5444AA147D88B294EDB0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9AC45AA42A26BF0DC5ACABEA0B7C2CB /* Pods-Bullseye-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Bullseye-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E381CCF0F416C095C1812FB4C4011A2B /* Config.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Config.swift; path = Sources/Config.swift; sourceTree = "<group>"; };
-		EAC664748AD91F2923F54A3C27BB4373 /* Cheers-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cheers-prefix.pch"; sourceTree = "<group>"; };
+		E072B18240C61775BF0DEF9318FB890F /* NewRelicFeatureFlags.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NewRelicFeatureFlags.h; path = NewRelicAgent/NewRelicAgent.framework/Versions/A/Headers/NewRelicFeatureFlags.h; sourceTree = "<group>"; };
+		E27124597F2BCD9BBFA37D6813C9B22E /* NRCustomMetrics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NRCustomMetrics.h; path = NewRelicAgent/NewRelicAgent.framework/Versions/A/Headers/NRCustomMetrics.h; sourceTree = "<group>"; };
+		E45470FC9B7B33D9C7EE210A12BDDD79 /* NewRelicAgent.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NewRelicAgent.framework; path = NewRelicAgent/NewRelicAgent.framework; sourceTree = "<group>"; };
+		E91E1575382AB25F43A60B17DB5B3B70 /* Cheers-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cheers-prefix.pch"; sourceTree = "<group>"; };
+		ED3599D176452F2D60A8004582745C4A /* NRLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NRLogger.h; path = NewRelicAgent/NewRelicAgent.framework/Versions/A/Headers/NRLogger.h; sourceTree = "<group>"; };
+		F227932AA091974E27C943AC7B18B3A7 /* Cheers-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cheers-dummy.m"; sourceTree = "<group>"; };
 		FF8A050CF55DC5C59B770856985B3CD5 /* Pods-Bullseye.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bullseye.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,6 +87,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14BF1EF7BAA54CB7C1FF0DCFE8AA0F9D /* NewRelicAgent */ = {
+			isa = PBXGroup;
+			children = (
+				16E52691057B860432A1E3852A50307A /* NewRelic.h */,
+				2804F6DEFD9130995BE5A93081BCCF95 /* NewRelicAgent.h */,
+				9D6D5179F1D889BB664467A56DF44160 /* NewRelicCustomInteractionInterface.h */,
+				E072B18240C61775BF0DEF9318FB890F /* NewRelicFeatureFlags.h */,
+				B1951629C5EC4B7ECC9A90B301F488E5 /* NRConstants.h */,
+				E27124597F2BCD9BBFA37D6813C9B22E /* NRCustomMetrics.h */,
+				74E768371FA8BC38F10103CA8A574934 /* NRGCDOverride.h */,
+				ED3599D176452F2D60A8004582745C4A /* NRLogger.h */,
+				9661708623E7D38E3CD008B6F9D6EEBA /* NRTimer.h */,
+				8F785C83271377180787B93A8DEBC501 /* NRURLSessionTaskDelegateBase.h */,
+				578ADF7C97D721BA052784CA68204165 /* Frameworks */,
+			);
+			name = NewRelicAgent;
+			path = NewRelicAgent;
+			sourceTree = "<group>";
+		};
+		3D46C5A4C71F03B9797DA66457B3E7BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2022B9442BE3C81B2F022F6EC15E871 /* Cheers */,
+				14BF1EF7BAA54CB7C1FF0DCFE8AA0F9D /* NewRelicAgent */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		578ADF7C97D721BA052784CA68204165 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E45470FC9B7B33D9C7EE210A12BDDD79 /* NewRelicAgent.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -89,31 +136,10 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				8DA346E846FBFE5C94CB9F65A573A4A4 /* Pods */,
+				3D46C5A4C71F03B9797DA66457B3E7BB /* Pods */,
 				B0F1D271ECEFEDFC48FB846A35F35D04 /* Products */,
 				AD4DF43676A59A1443EF9235CD3CA7C8 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		8DA346E846FBFE5C94CB9F65A573A4A4 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				9F5145F6BE90634127B6C8C8EB4C7903 /* Cheers */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		9F5145F6BE90634127B6C8C8EB4C7903 /* Cheers */ = {
-			isa = PBXGroup;
-			children = (
-				1F96EE9FED6C1252BAD0C6FD62867F60 /* Cheers.swift */,
-				E381CCF0F416C095C1812FB4C4011A2B /* Config.swift */,
-				A7E995B8C9DCB06270F971EEE19D19DB /* Extensions.swift */,
-				2A14644FE21CCD480F5786AB0C3D455E /* ImageGenerator.swift */,
-				D4640BE3B73C24C3F9351C41C859770A /* Support Files */,
-			);
-			name = Cheers;
-			path = Cheers;
 			sourceTree = "<group>";
 		};
 		AD4DF43676A59A1443EF9235CD3CA7C8 /* Targets Support Files */ = {
@@ -122,6 +148,20 @@
 				E0BC1BCA38F5D546EC6796D7B8C37E07 /* Pods-Bullseye */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AE95C0134262842BF4FC236DD1D5AA5E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C00540FE150F270AF2FD1D55EC5B7886 /* Cheers.modulemap */,
+				C865C666846530BE3CE1F896900E0E04 /* Cheers.xcconfig */,
+				F227932AA091974E27C943AC7B18B3A7 /* Cheers-dummy.m */,
+				E91E1575382AB25F43A60B17DB5B3B70 /* Cheers-prefix.pch */,
+				7CDA9670A410237573092033A990CBE5 /* Cheers-umbrella.h */,
+				CC4DC2AC2CDF5444AA147D88B294EDB0 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Cheers";
 			sourceTree = "<group>";
 		};
 		B0F1D271ECEFEDFC48FB846A35F35D04 /* Products */ = {
@@ -141,18 +181,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D4640BE3B73C24C3F9351C41C859770A /* Support Files */ = {
+		C2022B9442BE3C81B2F022F6EC15E871 /* Cheers */ = {
 			isa = PBXGroup;
 			children = (
-				9DB9C8B8337B7B57B8D6812698FCC73A /* Cheers.modulemap */,
-				09DB96444CF9CDE000235C636F4D6C28 /* Cheers.xcconfig */,
-				A7818E681E37011406E91C2107B6E456 /* Cheers-dummy.m */,
-				EAC664748AD91F2923F54A3C27BB4373 /* Cheers-prefix.pch */,
-				28A3C24C3D5350B16ED63A25EA377282 /* Cheers-umbrella.h */,
-				286C82813B72BC30BD9A8C8EFF7F39CD /* Info.plist */,
+				7A2E6AD009615886E6E2C2849EF2929A /* Cheers.swift */,
+				2A674397845DB57E0DD5FA71E688C4FC /* Config.swift */,
+				8EA63B353437AE57A938344B0CA0C82F /* Extensions.swift */,
+				59A79137E22B9F021125AC210C700481 /* ImageGenerator.swift */,
+				AE95C0134262842BF4FC236DD1D5AA5E /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Cheers";
+			name = Cheers;
+			path = Cheers;
 			sourceTree = "<group>";
 		};
 		E0BC1BCA38F5D546EC6796D7B8C37E07 /* Pods-Bullseye */ = {
@@ -292,7 +331,7 @@
 /* Begin XCBuildConfiguration section */
 		24EF5B3EB1BBF9021E51544DDEF92337 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 09DB96444CF9CDE000235C636F4D6C28 /* Cheers.xcconfig */;
+			baseConfigurationReference = C865C666846530BE3CE1F896900E0E04 /* Cheers.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -382,7 +421,7 @@
 		};
 		58EA631DD5E8BEFFA91D1DAABB974C3E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 09DB96444CF9CDE000235C636F4D6C28 /* Cheers.xcconfig */;
+			baseConfigurationReference = C865C666846530BE3CE1F896900E0E04 /* Cheers.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

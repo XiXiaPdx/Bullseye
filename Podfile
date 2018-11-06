@@ -9,6 +9,6 @@ target 'Bullseye' do
 
   # Pods for Bullseye
 pod 'Cheers'
-# pod 'NewRelicAgent'
+pod 'NewRelicAgent'
 
 end
