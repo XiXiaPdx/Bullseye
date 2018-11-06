@@ -3,3 +3,20 @@ executing upload_map_file_to_new_relic
 New Relic: map file upload attempt #1 (of 3)
 Using URL: https://mobile-symbol-upload.newrelic.com
 New Relic: Successfully uploaded map files
+/Users/xxia/iOS/Bullseye/Pods/NewRelicAgent/NewRelicAgent/NewRelicAgent.framework/Versions/A/Resources/generateMap.py", line 96, in <module>
+    os.mkdir(workDir)
+OSError: [Errno 17] File exists: '/Users/xxia/Library/Developer/Xcode/DerivedData/Bullseye-ehaqolgpkpdohacheflpgrqqeakq/Build/Intermediates.noindex/ArchiveIntermediates/Bullseye/IntermediateBuildFilesPath/Bullseye.build/Release-iphoneos/Bullseye.build/tmp'
+New Relic: map file upload attempt #2 (of 3)
+Using URL: https://mobile-symbol-upload.newrelic.com
+Traceback (most recent call last):
+  File "/Users/xxia/iOS/Bullseye/Pods/NewRelicAgent/NewRelicAgent/NewRelicAgent.framework/Versions/A/Resources/generateMap.py", line 96, in <module>
+    os.mkdir(workDir)
+OSError: [Errno 17] File exists: '/Users/xxia/Library/Developer/Xcode/DerivedData/Bullseye-ehaqolgpkpdohacheflpgrqqeakq/Build/Intermediates.noindex/ArchiveIntermediates/Bullseye/IntermediateBuildFilesPath/Bullseye.build/Release-iphoneos/Bullseye.build/tmp'
+New Relic: map file upload attempt #3 (of 3)
+Using URL: https://mobile-symbol-upload.newrelic.com
+Traceback (most recent call last):
+  File "/Users/xxia/iOS/Bullseye/Pods/NewRelicAgent/NewRelicAgent/NewRelicAgent.framework/Versions/A/Resources/generateMap.py", line 96, in <module>
+    os.mkdir(workDir)
+OSError: [Errno 17] File exists: '/Users/xxia/Library/Developer/Xcode/DerivedData/Bullseye-ehaqolgpkpdohacheflpgrqqeakq/Build/Intermediates.noindex/ArchiveIntermediates/Bullseye/IntermediateBuildFilesPath/Bullseye.build/Release-iphoneos/Bullseye.build/tmp'
+executing upload_dsym_to_new_relic
+new relic: successfully uploaded dsym files
