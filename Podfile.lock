@@ -1,20 +1,16 @@
 PODS:
-  - Cheers (2.1.0)
   - NewRelicAgent (6.4.1)
 
 DEPENDENCIES:
-  - Cheers
   - NewRelicAgent
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - Cheers
     - NewRelicAgent
 
 SPEC CHECKSUMS:
-  Cheers: 02d6335ac9ceb1ebf678df78d378bc71242a015e
   NewRelicAgent: 1af35e469381d9ad3c87c73faeb05a7e9a584245
 
-PODFILE CHECKSUM: 62919468a99b9940fca0808edb3279c4e5a009b5
+PODFILE CHECKSUM: e2211a7c78956eb2081d92d1e24f8169a0e2d81a
 
 COCOAPODS: 1.5.3

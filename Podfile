@@ -8,7 +8,7 @@ target 'Bullseye' do
   use_frameworks!
 
   # Pods for Bullseye
-pod 'Cheers'
+# pod 'Cheers'
 pod 'NewRelicAgent'
 
 end

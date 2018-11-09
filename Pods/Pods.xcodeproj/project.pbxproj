@@ -7,118 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		172E1457C0A629E879E11CD9E64E5574 /* Cheers-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F227932AA091974E27C943AC7B18B3A7 /* Cheers-dummy.m */; };
-		372DE693B2CFCF8A89B005590434979A /* ImageGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A79137E22B9F021125AC210C700481 /* ImageGenerator.swift */; };
-		3E5206FD1B04CE52AD9F7D7462937D3D /* Cheers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2E6AD009615886E6E2C2849EF2929A /* Cheers.swift */; };
-		42A09E94875F3030EB20AFB327A4BC1B /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A674397845DB57E0DD5FA71E688C4FC /* Config.swift */; };
-		8B06AFEECFC58AA709E91AD1AF8B735A /* Cheers-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CDA9670A410237573092033A990CBE5 /* Cheers-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9E8B857DA67F949A4606107A361AFA57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		B646ABD2FF18A59C6399BDE0BE226E96 /* Pods-Bullseye-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5098A5D8449B4136E940AB5EA6FF64E8 /* Pods-Bullseye-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C04DF298D5CF207A27F0BA3DBDBD4777 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		DCFE0CF7B7F7C806339EE3CE9462AB55 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA63B353437AE57A938344B0CA0C82F /* Extensions.swift */; };
-		FA807DBF1620075E4827FAB405B8CA5D /* Pods-Bullseye-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10562BCA126BFE40386E466F813A448E /* Pods-Bullseye-dummy.m */; };
+		678253C3C5726A1B63C3B73520C8A0FA /* Pods-Bullseye-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10562BCA126BFE40386E466F813A448E /* Pods-Bullseye-dummy.m */; };
+		E5FCE3CBC0BCA914C9317373379B4F65 /* Pods-Bullseye-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5098A5D8449B4136E940AB5EA6FF64E8 /* Pods-Bullseye-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA85606D2D0008AFC0B562ADED1FCE65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		DB2BC31C5A0CBF42BD0ECE13E585FB37 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C279FA6C6C73D2194A8215BAE29137F6;
-			remoteInfo = Cheers;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0B9E8A37F17296466AD88ACA4EA7EF91 /* Pods-Bullseye.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Bullseye.modulemap"; sourceTree = "<group>"; };
 		10562BCA126BFE40386E466F813A448E /* Pods-Bullseye-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Bullseye-dummy.m"; sourceTree = "<group>"; };
-		16E52691057B860432A1E3852A50307A /* NewRelic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NewRelic.h; path = NewRelicAgent/NewRelicAgent.framework/Versions/A/Headers/NewRelic.h; sourceTree = "<group>"; };
-		2804F6DEFD9130995BE5A93081BCCF95 /* NewRelicAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NewRelicAgent.h; path = NewRelicAgent/NewRelicAgent.framework/Versions/A/Headers/NewRelicAgent.h; sourceTree = "<group>"; };
-		2A674397845DB57E0DD5FA71E688C4FC /* Config.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Config.swift; path = Sources/Config.swift; sourceTree = "<group>"; };
-		4385184BE9D1C39E2C44CE74139C033E /* Pods_Bullseye.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Bullseye.framework; path = "Pods-Bullseye.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E31ED960A5A68E9973C71DF71BADB8F /* NRCustomMetrics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NRCustomMetrics.h; path = NewRelicAgent/NewRelicAgent.framework/Versions/A/Headers/NRCustomMetrics.h; sourceTree = "<group>"; };
 		475F9A699E02963449468140875EF805 /* Pods-Bullseye-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Bullseye-frameworks.sh"; sourceTree = "<group>"; };
 		5098A5D8449B4136E940AB5EA6FF64E8 /* Pods-Bullseye-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Bullseye-umbrella.h"; sourceTree = "<group>"; };
+		558262C997DC6E1655DC98C6B3C3F500 /* NewRelic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NewRelic.h; path = NewRelicAgent/NewRelicAgent.framework/Versions/A/Headers/NewRelic.h; sourceTree = "<group>"; };
 		570876394B0098916C33AE4E9B790CC9 /* Pods-Bullseye-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Bullseye-acknowledgements.plist"; sourceTree = "<group>"; };
-		59A79137E22B9F021125AC210C700481 /* ImageGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageGenerator.swift; path = Sources/ImageGenerator.swift; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		74E768371FA8BC38F10103CA8A574934 /* NRGCDOverride.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NRGCDOverride.h; path = NewRelicAgent/NewRelicAgent.framework/Versions/A/Headers/NRGCDOverride.h; sourceTree = "<group>"; };
+		72001E5A15580B6314386A605644615A /* NewRelicAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NewRelicAgent.h; path = NewRelicAgent/NewRelicAgent.framework/Versions/A/Headers/NewRelicAgent.h; sourceTree = "<group>"; };
 		7580DD2A107077414011CEC1C87F0C9F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7A2E6AD009615886E6E2C2849EF2929A /* Cheers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cheers.swift; path = Sources/Cheers.swift; sourceTree = "<group>"; };
+		788E92BBACFB9006C7FAE169A940528A /* NewRelicAgent.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NewRelicAgent.framework; path = NewRelicAgent/NewRelicAgent.framework; sourceTree = "<group>"; };
 		7C8E9303898FFAE2D22F4A26B2D78E81 /* Pods-Bullseye-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Bullseye-resources.sh"; sourceTree = "<group>"; };
-		7CDA9670A410237573092033A990CBE5 /* Cheers-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cheers-umbrella.h"; sourceTree = "<group>"; };
-		8B94D7D301FBB2F08BA252C379FE3E9D /* Cheers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Cheers.framework; path = Cheers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8EA63B353437AE57A938344B0CA0C82F /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Sources/Extensions.swift; sourceTree = "<group>"; };
-		8F785C83271377180787B93A8DEBC501 /* NRURLSessionTaskDelegateBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NRURLSessionTaskDelegateBase.h; path = NewRelicAgent/NewRelicAgent.framework/Versions/A/Headers/NRURLSessionTaskDelegateBase.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95B44F435DE1F11D94F08652840E0460 /* Pods-Bullseye.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bullseye.debug.xcconfig"; sourceTree = "<group>"; };
-		9661708623E7D38E3CD008B6F9D6EEBA /* NRTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NRTimer.h; path = NewRelicAgent/NewRelicAgent.framework/Versions/A/Headers/NRTimer.h; sourceTree = "<group>"; };
-		9D6D5179F1D889BB664467A56DF44160 /* NewRelicCustomInteractionInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NewRelicCustomInteractionInterface.h; path = NewRelicAgent/NewRelicAgent.framework/Versions/A/Headers/NewRelicCustomInteractionInterface.h; sourceTree = "<group>"; };
-		B1951629C5EC4B7ECC9A90B301F488E5 /* NRConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NRConstants.h; path = NewRelicAgent/NewRelicAgent.framework/Versions/A/Headers/NRConstants.h; sourceTree = "<group>"; };
-		C00540FE150F270AF2FD1D55EC5B7886 /* Cheers.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Cheers.modulemap; sourceTree = "<group>"; };
-		C865C666846530BE3CE1F896900E0E04 /* Cheers.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cheers.xcconfig; sourceTree = "<group>"; };
-		CC4DC2AC2CDF5444AA147D88B294EDB0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A46F83227CFE49218B8BE9864F8BBB8D /* NRLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NRLogger.h; path = NewRelicAgent/NewRelicAgent.framework/Versions/A/Headers/NRLogger.h; sourceTree = "<group>"; };
+		BB782E20DD356D8EA40E3B63289E7C35 /* NRTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NRTimer.h; path = NewRelicAgent/NewRelicAgent.framework/Versions/A/Headers/NRTimer.h; sourceTree = "<group>"; };
+		BF04F4F193FF4697A381E7CC37D7B291 /* NRURLSessionTaskDelegateBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NRURLSessionTaskDelegateBase.h; path = NewRelicAgent/NewRelicAgent.framework/Versions/A/Headers/NRURLSessionTaskDelegateBase.h; sourceTree = "<group>"; };
+		CC2BCDDEE4DEBE0D9F309F4B7CAB8A37 /* NewRelicCustomInteractionInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NewRelicCustomInteractionInterface.h; path = NewRelicAgent/NewRelicAgent.framework/Versions/A/Headers/NewRelicCustomInteractionInterface.h; sourceTree = "<group>"; };
+		D93D1E338ED42E8FC0CA6322713761BB /* NRGCDOverride.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NRGCDOverride.h; path = NewRelicAgent/NewRelicAgent.framework/Versions/A/Headers/NRGCDOverride.h; sourceTree = "<group>"; };
 		D9AC45AA42A26BF0DC5ACABEA0B7C2CB /* Pods-Bullseye-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Bullseye-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E072B18240C61775BF0DEF9318FB890F /* NewRelicFeatureFlags.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NewRelicFeatureFlags.h; path = NewRelicAgent/NewRelicAgent.framework/Versions/A/Headers/NewRelicFeatureFlags.h; sourceTree = "<group>"; };
-		E27124597F2BCD9BBFA37D6813C9B22E /* NRCustomMetrics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NRCustomMetrics.h; path = NewRelicAgent/NewRelicAgent.framework/Versions/A/Headers/NRCustomMetrics.h; sourceTree = "<group>"; };
-		E45470FC9B7B33D9C7EE210A12BDDD79 /* NewRelicAgent.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NewRelicAgent.framework; path = NewRelicAgent/NewRelicAgent.framework; sourceTree = "<group>"; };
-		E91E1575382AB25F43A60B17DB5B3B70 /* Cheers-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cheers-prefix.pch"; sourceTree = "<group>"; };
-		ED3599D176452F2D60A8004582745C4A /* NRLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NRLogger.h; path = NewRelicAgent/NewRelicAgent.framework/Versions/A/Headers/NRLogger.h; sourceTree = "<group>"; };
-		F227932AA091974E27C943AC7B18B3A7 /* Cheers-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cheers-dummy.m"; sourceTree = "<group>"; };
+		EA91E7F419EB024513A4EC12F10239DA /* NRConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NRConstants.h; path = NewRelicAgent/NewRelicAgent.framework/Versions/A/Headers/NRConstants.h; sourceTree = "<group>"; };
+		EC6C4B8C236921806CEC86CEA80C17F5 /* Pods_Bullseye.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Bullseye.framework; path = "Pods-Bullseye.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBF59B99C14A3FCDBED5566E55D6D447 /* NewRelicFeatureFlags.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NewRelicFeatureFlags.h; path = NewRelicAgent/NewRelicAgent.framework/Versions/A/Headers/NewRelicFeatureFlags.h; sourceTree = "<group>"; };
 		FF8A050CF55DC5C59B770856985B3CD5 /* Pods-Bullseye.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bullseye.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		03234DA9985613623605807192D039B3 /* Frameworks */ = {
+		89C68C59AA2D482D71DBD4F9D09EE228 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E8B857DA67F949A4606107A361AFA57 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		561B0244FAAAE6C66C1F8E1B718B24EC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C04DF298D5CF207A27F0BA3DBDBD4777 /* Foundation.framework in Frameworks */,
+				EA85606D2D0008AFC0B562ADED1FCE65 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		14BF1EF7BAA54CB7C1FF0DCFE8AA0F9D /* NewRelicAgent */ = {
+		0ED90EDC0597F6DFE7E7F9875740A199 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				16E52691057B860432A1E3852A50307A /* NewRelic.h */,
-				2804F6DEFD9130995BE5A93081BCCF95 /* NewRelicAgent.h */,
-				9D6D5179F1D889BB664467A56DF44160 /* NewRelicCustomInteractionInterface.h */,
-				E072B18240C61775BF0DEF9318FB890F /* NewRelicFeatureFlags.h */,
-				B1951629C5EC4B7ECC9A90B301F488E5 /* NRConstants.h */,
-				E27124597F2BCD9BBFA37D6813C9B22E /* NRCustomMetrics.h */,
-				74E768371FA8BC38F10103CA8A574934 /* NRGCDOverride.h */,
-				ED3599D176452F2D60A8004582745C4A /* NRLogger.h */,
-				9661708623E7D38E3CD008B6F9D6EEBA /* NRTimer.h */,
-				8F785C83271377180787B93A8DEBC501 /* NRURLSessionTaskDelegateBase.h */,
-				578ADF7C97D721BA052784CA68204165 /* Frameworks */,
+				EC6C4B8C236921806CEC86CEA80C17F5 /* Pods_Bullseye.framework */,
 			);
-			name = NewRelicAgent;
-			path = NewRelicAgent;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		3D46C5A4C71F03B9797DA66457B3E7BB /* Pods */ = {
+		1312D044508DFC6E2C00E442E438BF91 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C2022B9442BE3C81B2F022F6EC15E871 /* Cheers */,
-				14BF1EF7BAA54CB7C1FF0DCFE8AA0F9D /* NewRelicAgent */,
+				F37C2F05E1ED1D4B3F9FC41EB171AB46 /* NewRelicAgent */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		578ADF7C97D721BA052784CA68204165 /* Frameworks */ = {
+		1ACBA6E63CF6B9ECD55FFA1E5ADC6A4A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E45470FC9B7B33D9C7EE210A12BDDD79 /* NewRelicAgent.framework */,
+				788E92BBACFB9006C7FAE169A940528A /* NewRelicAgent.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -136,8 +88,8 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				3D46C5A4C71F03B9797DA66457B3E7BB /* Pods */,
-				B0F1D271ECEFEDFC48FB846A35F35D04 /* Products */,
+				1312D044508DFC6E2C00E442E438BF91 /* Pods */,
+				0ED90EDC0597F6DFE7E7F9875740A199 /* Products */,
 				AD4DF43676A59A1443EF9235CD3CA7C8 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -150,48 +102,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		AE95C0134262842BF4FC236DD1D5AA5E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C00540FE150F270AF2FD1D55EC5B7886 /* Cheers.modulemap */,
-				C865C666846530BE3CE1F896900E0E04 /* Cheers.xcconfig */,
-				F227932AA091974E27C943AC7B18B3A7 /* Cheers-dummy.m */,
-				E91E1575382AB25F43A60B17DB5B3B70 /* Cheers-prefix.pch */,
-				7CDA9670A410237573092033A990CBE5 /* Cheers-umbrella.h */,
-				CC4DC2AC2CDF5444AA147D88B294EDB0 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Cheers";
-			sourceTree = "<group>";
-		};
-		B0F1D271ECEFEDFC48FB846A35F35D04 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8B94D7D301FBB2F08BA252C379FE3E9D /* Cheers.framework */,
-				4385184BE9D1C39E2C44CE74139C033E /* Pods_Bullseye.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C2022B9442BE3C81B2F022F6EC15E871 /* Cheers */ = {
-			isa = PBXGroup;
-			children = (
-				7A2E6AD009615886E6E2C2849EF2929A /* Cheers.swift */,
-				2A674397845DB57E0DD5FA71E688C4FC /* Config.swift */,
-				8EA63B353437AE57A938344B0CA0C82F /* Extensions.swift */,
-				59A79137E22B9F021125AC210C700481 /* ImageGenerator.swift */,
-				AE95C0134262842BF4FC236DD1D5AA5E /* Support Files */,
-			);
-			name = Cheers;
-			path = Cheers;
 			sourceTree = "<group>";
 		};
 		E0BC1BCA38F5D546EC6796D7B8C37E07 /* Pods-Bullseye */ = {
@@ -212,61 +128,54 @@
 			path = "Target Support Files/Pods-Bullseye";
 			sourceTree = "<group>";
 		};
+		F37C2F05E1ED1D4B3F9FC41EB171AB46 /* NewRelicAgent */ = {
+			isa = PBXGroup;
+			children = (
+				558262C997DC6E1655DC98C6B3C3F500 /* NewRelic.h */,
+				72001E5A15580B6314386A605644615A /* NewRelicAgent.h */,
+				CC2BCDDEE4DEBE0D9F309F4B7CAB8A37 /* NewRelicCustomInteractionInterface.h */,
+				FBF59B99C14A3FCDBED5566E55D6D447 /* NewRelicFeatureFlags.h */,
+				EA91E7F419EB024513A4EC12F10239DA /* NRConstants.h */,
+				1E31ED960A5A68E9973C71DF71BADB8F /* NRCustomMetrics.h */,
+				D93D1E338ED42E8FC0CA6322713761BB /* NRGCDOverride.h */,
+				A46F83227CFE49218B8BE9864F8BBB8D /* NRLogger.h */,
+				BB782E20DD356D8EA40E3B63289E7C35 /* NRTimer.h */,
+				BF04F4F193FF4697A381E7CC37D7B291 /* NRURLSessionTaskDelegateBase.h */,
+				1ACBA6E63CF6B9ECD55FFA1E5ADC6A4A /* Frameworks */,
+			);
+			name = NewRelicAgent;
+			path = NewRelicAgent;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		724FE8AD8DE721D022587197BC90D8B1 /* Headers */ = {
+		6ECA220E575AF075049D6F0707BC705B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B06AFEECFC58AA709E91AD1AF8B735A /* Cheers-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7B09A7F046DF6756D604BA8256523BD7 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B646ABD2FF18A59C6399BDE0BE226E96 /* Pods-Bullseye-umbrella.h in Headers */,
+				E5FCE3CBC0BCA914C9317373379B4F65 /* Pods-Bullseye-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		C279FA6C6C73D2194A8215BAE29137F6 /* Cheers */ = {
+		ECB1E384CEB15DFD3C77E8BC55D59DCA /* Pods-Bullseye */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB0B83140F526E1220348FD89F149497 /* Build configuration list for PBXNativeTarget "Cheers" */;
+			buildConfigurationList = E7A1728497587098B161E2A3C0922642 /* Build configuration list for PBXNativeTarget "Pods-Bullseye" */;
 			buildPhases = (
-				8C2147A6785212C2AAFE87E1137D9A9B /* Sources */,
-				03234DA9985613623605807192D039B3 /* Frameworks */,
-				724FE8AD8DE721D022587197BC90D8B1 /* Headers */,
+				555DDB451255BD0810E257CCEAD630AF /* Sources */,
+				89C68C59AA2D482D71DBD4F9D09EE228 /* Frameworks */,
+				6ECA220E575AF075049D6F0707BC705B /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = Cheers;
-			productName = Cheers;
-			productReference = 8B94D7D301FBB2F08BA252C379FE3E9D /* Cheers.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E227F8FC9AAF8A0D777B87F5B297A9BF /* Pods-Bullseye */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B43A73B8CD23231384C1B89C9FBADB78 /* Build configuration list for PBXNativeTarget "Pods-Bullseye" */;
-			buildPhases = (
-				E8DDDE95D3C57432259B7A2DCBC02856 /* Sources */,
-				561B0244FAAAE6C66C1F8E1B718B24EC /* Frameworks */,
-				7B09A7F046DF6756D604BA8256523BD7 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AE68DFA321893DD5018A07ACDF5CD3FC /* PBXTargetDependency */,
 			);
 			name = "Pods-Bullseye";
 			productName = "Pods-Bullseye";
-			productReference = 4385184BE9D1C39E2C44CE74139C033E /* Pods_Bullseye.framework */;
+			productReference = EC6C4B8C236921806CEC86CEA80C17F5 /* Pods_Bullseye.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -286,53 +195,33 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = B0F1D271ECEFEDFC48FB846A35F35D04 /* Products */;
+			productRefGroup = 0ED90EDC0597F6DFE7E7F9875740A199 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C279FA6C6C73D2194A8215BAE29137F6 /* Cheers */,
-				E227F8FC9AAF8A0D777B87F5B297A9BF /* Pods-Bullseye */,
+				ECB1E384CEB15DFD3C77E8BC55D59DCA /* Pods-Bullseye */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8C2147A6785212C2AAFE87E1137D9A9B /* Sources */ = {
+		555DDB451255BD0810E257CCEAD630AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				172E1457C0A629E879E11CD9E64E5574 /* Cheers-dummy.m in Sources */,
-				3E5206FD1B04CE52AD9F7D7462937D3D /* Cheers.swift in Sources */,
-				42A09E94875F3030EB20AFB327A4BC1B /* Config.swift in Sources */,
-				DCFE0CF7B7F7C806339EE3CE9462AB55 /* Extensions.swift in Sources */,
-				372DE693B2CFCF8A89B005590434979A /* ImageGenerator.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E8DDDE95D3C57432259B7A2DCBC02856 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FA807DBF1620075E4827FAB405B8CA5D /* Pods-Bullseye-dummy.m in Sources */,
+				678253C3C5726A1B63C3B73520C8A0FA /* Pods-Bullseye-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		AE68DFA321893DD5018A07ACDF5CD3FC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Cheers;
-			target = C279FA6C6C73D2194A8215BAE29137F6 /* Cheers */;
-			targetProxy = DB2BC31C5A0CBF42BD0ECE13E585FB37 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		09880DC0FECF2B6BB6A2825AC360142F /* Debug */ = {
+		1DBE2A62FE2318011DB543F62175784D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C865C666846530BE3CE1F896900E0E04 /* Cheers.xcconfig */;
+			baseConfigurationReference = 95B44F435DE1F11D94F08652840E0460 /* Pods-Bullseye.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -342,57 +231,24 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Cheers/Cheers-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Cheers/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Bullseye/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Cheers/Cheers.modulemap";
-				PRODUCT_MODULE_NAME = Cheers;
-				PRODUCT_NAME = Cheers;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Bullseye/Pods-Bullseye.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		1405B79ECD19DDDBEDE14CE3113ACB75 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C865C666846530BE3CE1F896900E0E04 /* Cheers.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Cheers/Cheers-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Cheers/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Cheers/Cheers.modulemap";
-				PRODUCT_MODULE_NAME = Cheers;
-				PRODUCT_NAME = Cheers;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		30D948AE62C04225F8DEF8734A4C5A26 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -451,78 +307,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
-		};
-		60D8B174BD5F07FAA9312FD36EAA6018 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF8A050CF55DC5C59B770856985B3CD5 /* Pods-Bullseye.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Bullseye/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Bullseye/Pods-Bullseye.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8512EEBEC526FF59D58C92EBA76A198F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95B44F435DE1F11D94F08652840E0460 /* Pods-Bullseye.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Bullseye/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Bullseye/Pods-Bullseye.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		9E88537B08ED4D6EB44DBA7BC8D56A35 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -587,6 +371,41 @@
 			};
 			name = Debug;
 		};
+		D78B2854136813442B2B6C40C4568E3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF8A050CF55DC5C59B770856985B3CD5 /* Pods-Bullseye.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Bullseye/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Bullseye/Pods-Bullseye.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -599,20 +418,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB0B83140F526E1220348FD89F149497 /* Build configuration list for PBXNativeTarget "Cheers" */ = {
+		E7A1728497587098B161E2A3C0922642 /* Build configuration list for PBXNativeTarget "Pods-Bullseye" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				09880DC0FECF2B6BB6A2825AC360142F /* Debug */,
-				1405B79ECD19DDDBEDE14CE3113ACB75 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B43A73B8CD23231384C1B89C9FBADB78 /* Build configuration list for PBXNativeTarget "Pods-Bullseye" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8512EEBEC526FF59D58C92EBA76A198F /* Debug */,
-				60D8B174BD5F07FAA9312FD36EAA6018 /* Release */,
+				1DBE2A62FE2318011DB543F62175784D /* Debug */,
+				D78B2854136813442B2B6C40C4568E3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

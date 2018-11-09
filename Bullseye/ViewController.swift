@@ -8,7 +8,7 @@
 
 import UIKit
 import QuartzCore
-import Cheers
+//import Cheers
 
 class ViewController: UIViewController {
     @IBOutlet weak var slider: UISlider!
@@ -21,7 +21,7 @@ class ViewController: UIViewController {
 
 
     
-    let cheerView = CheerView()
+//    let cheerView = CheerView()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -46,8 +46,8 @@ class ViewController: UIViewController {
             trackRightImage.resizableImage(withCapInsets: insets)
         slider.setMaximumTrackImage(trackRightResizable, for: .normal)
         
-        view.addSubview(cheerView)
-        cheerView.config.particle = .confetti(allowedShapes: Particle.ConfettiShape.all)
+//        view.addSubview(cheerView)
+//        cheerView.config.particle = .confetti(allowedShapes: Particle.ConfettiShape.all)
     }
     
     
@@ -63,9 +63,9 @@ class ViewController: UIViewController {
         round = 0
         startNewRound()
         let transition = CATransition()
-        transition.type = CATransitionType.fade
+//        transition.type = CATransitionType.fade
         transition.duration = 1
-        transition.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeOut)
+//        transition.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeOut)
         view.layer.add(transition, forKey: nil)
     }
     
@@ -92,18 +92,18 @@ class ViewController: UIViewController {
         if difference == 0 {
             title = "Perfect!"
             points += 100
-            cheerView.start()
-            DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-                self.cheerView.stop()
-            }
+//            cheerView.start()
+//            DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+//                self.cheerView.stop()
+//            }
         } else if difference < 5 {
             title = "You almost had it!"
             if difference == 1 {
                 points += 50
-                cheerView.start()
-                DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-                    self.cheerView.stop()
-                }
+//                cheerView.start()
+//                DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+//                    self.cheerView.stop()
+//                }
             }
         } else if difference < 10 {
             title = "Pretty good!"
@@ -141,7 +141,7 @@ class ViewController: UIViewController {
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         
-        cheerView.frame = view.bounds
+//        cheerView.frame = view.bounds
     }
     
     
