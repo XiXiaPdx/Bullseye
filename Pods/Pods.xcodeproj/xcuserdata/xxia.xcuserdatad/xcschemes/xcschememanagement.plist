@@ -4,12 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Cheers.xcscheme_^#shared#^_</key>
+		<key>Cheers.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-Bullseye.xcscheme_^#shared#^_</key>
+		<key>Pods-Bullseye.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
