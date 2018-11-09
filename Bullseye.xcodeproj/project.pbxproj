@@ -192,7 +192,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if [[ $CONFIGURATION == \"Release\"* ]]; then \nSCRIPT=`/usr/bin/find \"${SRCROOT}\" -name newrelic_postbuild.sh | head -n 1`\n\n/bin/sh \"${SCRIPT}\" \"AAb78254ff1f586f4e7321fa543ce2ebd58319e00b\"\nfi\n";
+			shellScript = "if [[ $CONFIGURATION == \"Release\"* ]]; then \nSCRIPT=`/usr/bin/find \"${SRCROOT}\" -name newrelic_postbuild.sh | head -n 1`\n\n/bin/sh \"${SCRIPT}\" \"AAb78254ff1f586f4e7321fa543ce2ebd58319e00b\"\n\nfi\n";
 		};
 		EFBA28A1D6A05BEB5FFF3C00 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
