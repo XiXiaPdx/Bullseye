@@ -117,11 +117,9 @@ class ViewController: UIViewController {
         
 
         
-        let message = "You scored \(points) points"
+        let message = "Yay! You scored \(points) points this time!!!"
+        NewRelic.crashNow("testing if bitrise sent dsyms")
         
-
-        
-
 
         let alert = UIAlertController(title: title,
                                       message: message,
