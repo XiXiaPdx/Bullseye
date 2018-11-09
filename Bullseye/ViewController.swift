@@ -117,8 +117,9 @@ class ViewController: UIViewController {
         
 
         
-        let message = "Yay! You scored \(points) points this time!!!"
-        NewRelic.crashNow("testing if bitrise sent dsyms")
+        let message = "You scored \(points) points this time!!!"
+        
+        
         
 
         let alert = UIAlertController(title: title,
@@ -136,6 +137,7 @@ class ViewController: UIViewController {
 
     @IBAction func sliderMoved(_ slider: UISlider) {
         currentValue = lroundf(slider.value)
+        NewRelic.crashNow("testing if bitrise sent dsyms")
     }
     
     override func viewDidLayoutSubviews() {
