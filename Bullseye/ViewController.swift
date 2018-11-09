@@ -18,11 +18,14 @@ class ViewController: UIViewController {
     var targetValue = 0
     var score = 0
     var round = 0
+
+
     
     let cheerView = CheerView()
 
     override func viewDidLoad() {
         super.viewDidLoad()
+      
         startNewGame()
         
         let thumbImageNormal = #imageLiteral(resourceName: "SliderThumb-Normal")
@@ -46,6 +49,9 @@ class ViewController: UIViewController {
         view.addSubview(cheerView)
         cheerView.config.particle = .confetti(allowedShapes: Particle.ConfettiShape.all)
     }
+    
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -57,9 +63,9 @@ class ViewController: UIViewController {
         round = 0
         startNewRound()
         let transition = CATransition()
-        transition.type = kCATransitionFade
+        transition.type = CATransitionType.fade
         transition.duration = 1
-        transition.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseOut)
+        transition.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeOut)
         view.layer.add(transition, forKey: nil)
     }
     
@@ -106,10 +112,14 @@ class ViewController: UIViewController {
         }
         score += points
         
-        let eventRecorded = NewRelic.recordCustomEvent("iOSCustomEventTest", attributes:["make":"Ford", "model":"ModelT", "year": 1908, "color": "black", "mileage": 250000]);
+//        let eventRecorded = NewRelic.recordCustomEvent("iOSCustomEventTest", attributes:["make":"Ford", "model":"ModelT", "year": 1908, "color": "black", "mileage": 250000]);
+        
+        
 
         
         let message = "You scored \(points) points"
+        
+
         
 
 
@@ -124,6 +134,7 @@ class ViewController: UIViewController {
         alert.addAction(action)
         present(alert, animated: true, completion: nil)
     }
+    
 
     @IBAction func sliderMoved(_ slider: UISlider) {
         currentValue = lroundf(slider.value)
